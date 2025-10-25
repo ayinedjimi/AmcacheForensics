@@ -76,6 +76,8 @@ L'Amcache (Application Compatibility Cache) est un artefact forensique essentiel
 7. **Journal de log** : Messages et erreurs
 
 
+# 🚀 Clic droit > Exécuter en tant qu'administrateur
+
 ## Compilation
 
 ### Prérequis
@@ -95,8 +97,6 @@ cl.exe /nologo /W4 /EHsc /O2 /D_UNICODE /DUNICODE /FeAmcacheForensics.exe Amcach
     kernel32.lib user32.lib gdi32.lib comctl32.lib comdlg32.lib shlwapi.lib advapi32.lib
 ```
 
-
-# 🚀 Clic droit > Exécuter en tant qu'administrateur
 
 ## 🚀 Utilisation
 
@@ -320,6 +320,12 @@ Event Logs  : Context système (Process Creation, Logon, etc.)
 - **Collisions SHA-1** : Théoriquement possibles (très rare)
 
 
+# 🚀 Charger le hive (admin requis)
+
+# 🚀 Lister les entrées
+
+# 🚀 Décharger
+
 ## Amélioration futures
 
 ### Court terme
@@ -340,12 +346,6 @@ Event Logs  : Context système (Process Creation, Logon, etc.)
 - **Mode réseau** : Analyse de multiples systèmes
 - **API REST** : Intégration SIEM/SOAR
 
-
-# 🚀 Charger le hive (admin requis)
-
-# 🚀 Lister les entrées
-
-# 🚀 Décharger
 
 ## Outils complémentaires
 
@@ -503,6 +503,14 @@ furnished to do so, subject to the following conditions:
 **AmcacheForensics** - Outil forensique professionnel pour l'analyse de l'Amcache Windows
 Développé par **Ayi NEDJIMI** - 2025
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 ---
 
