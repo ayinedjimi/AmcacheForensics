@@ -57,6 +57,8 @@ L'Amcache (Application Compatibility Cache) est un artefact forensique essentiel
 - **Logs détaillés** : Traçabilité complète des opérations
 
 
+# 🚀 Clic droit > Exécuter en tant qu'administrateur
+
 ## Interface utilisateur
 
 ### Contrôles principaux
@@ -75,8 +77,6 @@ L'Amcache (Application Compatibility Cache) est un artefact forensique essentiel
    - Notes (observations forensiques)
 7. **Journal de log** : Messages et erreurs
 
-
-# 🚀 Clic droit > Exécuter en tant qu'administrateur
 
 ## Compilation
 
@@ -300,6 +300,12 @@ Event Logs  : Context système (Process Creation, Logon, etc.)
 ```
 
 
+# 🚀 Charger le hive (admin requis)
+
+# 🚀 Lister les entrées
+
+# 🚀 Décharger
+
 ## Limitations connues
 
 ### Limitations système
@@ -319,12 +325,6 @@ Event Logs  : Context système (Process Creation, Logon, etc.)
 - **Exécutions depuis réseau** : Pas toujours enregistrées
 - **Collisions SHA-1** : Théoriquement possibles (très rare)
 
-
-# 🚀 Charger le hive (admin requis)
-
-# 🚀 Lister les entrées
-
-# 🚀 Décharger
 
 ## Amélioration futures
 
@@ -503,6 +503,14 @@ furnished to do so, subject to the following conditions:
 **AmcacheForensics** - Outil forensique professionnel pour l'analyse de l'Amcache Windows
 Développé par **Ayi NEDJIMI** - 2025
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
