@@ -10,6 +10,8 @@
 AmcacheForensics est un outil forensique spécialisé dans l'analyse de **Amcache.hve**, une base de données du registre Windows qui enregistre les informations sur tous les exécutables lancés sur le système, y compris leurs hash SHA-1, chemins complets, métadonnées PE et timestamps de première exécution.
 
 
+# 🚀 Clic droit > Exécuter en tant qu'administrateur
+
 ## Qu'est-ce que l'Amcache ?
 
 L'Amcache (Application Compatibility Cache) est un artefact forensique essentiel :
@@ -31,8 +33,6 @@ L'Amcache (Application Compatibility Cache) est un artefact forensique essentiel
 - **First Run** : Date de première exécution (Windows 10+)
 - **Last Modified** : Dernière modification du fichier
 
-
-# 🚀 Clic droit > Exécuter en tant qu'administrateur
 
 ## ✨ Fonctionnalités principales
 
@@ -205,6 +205,12 @@ bool IsSuspiciousPath(const std::wstring& path) {
 ```
 
 
+# 🚀 Charger le hive (admin requis)
+
+# 🚀 Lister les entrées
+
+# 🚀 Décharger
+
 ## 🚀 Cas d'usage forensiques
 
 ### 1. Identification de malware par SHA-1
@@ -275,12 +281,6 @@ Timeline :
 Conclusion : Tentative d'effacement de traces après l'attaque
 ```
 
-
-# 🚀 Charger le hive (admin requis)
-
-# 🚀 Lister les entrées
-
-# 🚀 Décharger
 
 ## Valeur forensique de l'Amcache
 
@@ -503,6 +503,14 @@ furnished to do so, subject to the following conditions:
 **AmcacheForensics** - Outil forensique professionnel pour l'analyse de l'Amcache Windows
 Développé par **Ayi NEDJIMI** - 2025
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
