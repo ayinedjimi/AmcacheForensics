@@ -1,16 +1,42 @@
 # 🚀 AmcacheForensics - Analyseur Forensique de l'Amcache Windows
 
+![C++](https://img.shields.io/badge/language-C++-blue?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square) ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen?style=flat-square) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
+
+## 📑 Table des Matières
+
+- [📋 Description](#-description)
+- [Qu'est-ce que l'Amcache ?](#quest-ce-que-lamcache-)
+- [✨ Fonctionnalités principales](#-fonctionnalités-principales)
+- [Interface utilisateur](#interface-utilisateur)
+- [Compilation](#compilation)
+- [🚀 Utilisation](#-utilisation)
+- [Architecture technique](#architecture-technique)
+- [🚀 Cas d'usage forensiques](#-cas-dusage-forensiques)
+- [Valeur forensique de l'Amcache](#valeur-forensique-de-lamcache)
+- [Limitations connues](#limitations-connues)
+- [Amélioration futures](#amélioration-futures)
+- [Outils complémentaires](#outils-complémentaires)
+- [Références techniques](#références-techniques)
+- [Corrélation avec autres artefacts](#corrélation-avec-autres-artefacts)
+- [Format d'export CSV](#format-dexport-csv)
+- [🔧 Dépannage](#-dépannage)
+- [🔒 Sécurité et éthique](#-sécurité-et-éthique)
+- [📄 Licence MIT](#-licence-mit)
+- [Support](#support)
+
+
+
 
 **Auteur** : Ayi NEDJIMI
 **Licence** : MIT
 **Plateforme** : Windows (Win32 GUI)
 
+# 🚀 Clic droit > Exécuter en tant qu'administrateur
+
 ## 📋 Description
 
 AmcacheForensics est un outil forensique spécialisé dans l'analyse de **Amcache.hve**, une base de données du registre Windows qui enregistre les informations sur tous les exécutables lancés sur le système, y compris leurs hash SHA-1, chemins complets, métadonnées PE et timestamps de première exécution.
 
-
-# 🚀 Clic droit > Exécuter en tant qu'administrateur
 
 ## Qu'est-ce que l'Amcache ?
 
@@ -134,6 +160,12 @@ AmcacheForensics.exe
 ```
 
 
+# 🚀 Charger le hive (admin requis)
+
+# 🚀 Lister les entrées
+
+# 🚀 Décharger
+
 ## Architecture technique
 
 ### Structure de l'Amcache
@@ -204,12 +236,6 @@ bool IsSuspiciousPath(const std::wstring& path) {
 }
 ```
 
-
-# 🚀 Charger le hive (admin requis)
-
-# 🚀 Lister les entrées
-
-# 🚀 Décharger
 
 ## 🚀 Cas d'usage forensiques
 
@@ -503,6 +529,14 @@ furnished to do so, subject to the following conditions:
 **AmcacheForensics** - Outil forensique professionnel pour l'analyse de l'Amcache Windows
 Développé par **Ayi NEDJIMI** - 2025
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
